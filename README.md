@@ -6,6 +6,5 @@
 ```
 
 ### 效果图
-```
+
 ![image](https://github.com/chendongdong/sector/blob/master/show.png)
-```
