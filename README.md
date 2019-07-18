@@ -1,29 +1,11 @@
-# demo
+# 罗盘
 
-## Project setup
+## 需求
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+可选项5-n，左边的选项递减，右边的递增，点击的选项滚动到中间。
 ```
 
-### Compiles and minifies for production
+### 效果图
 ```
-npm run build
+https://github.com/chendongdong/sector/blob/master/show.png
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
