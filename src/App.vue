@@ -10,8 +10,11 @@
 <script>
 import Sector from './components/Sector'
 import BottomAnimation from './components/BottomAnimation'
+import PromiseTest from './utils/PromiseTest'
+import AsyncTest from './utils/AsyncTest'
 export default {
   name: 'app',
+  mixins: [PromiseTest, AsyncTest],
   components: {
     Sector,
     BottomAnimation
@@ -19,7 +22,11 @@ export default {
   data() {
     return {}
   },
-  methods: {}
+  methods: {},
+  created() {
+    this.initPromiseData()
+    // this.initAsyncData()
+  }
 }
 </script>
 
